@@ -7,4 +7,5 @@ package com.xias.plugins.customview.util;
 public class ARouterUtil {
 
     public static final String C_VIEW_CEDITTEXT = "/CView/CEdittext";
+    public static final String C_VIEW_CPROGRESSBAR = "/CView/CProgressBar";
 }

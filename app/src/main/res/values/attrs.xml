@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <attr name="lineWidth" format="dimension" />
+    <attr name="lineColor" format="color" />
+    <attr name="stokesColor" format="color" />
+    <attr name="isDrawLine" format="boolean" />
     <declare-styleable name="CEditText">
         <attr name="height" format="dimension" />
         <attr name="count" format="integer" />
-        <attr name="lineWidth" format="dimension" />
-        <attr name="lineColor" format="color" />
+        <attr name="lineWidth" />
+        <attr name="lineColor" />
         <attr name="focusLineColor" format="color" />
-        <attr name="stokesColor" format="color" />
+        <attr name="stokesColor" />
         <attr name="focusStokeColor" format="color" />
         <attr name="spaceWidth" format="dimension" />
         <attr name="textColor" format="color" />
@@ -15,6 +18,14 @@
         <attr name="circleRadius" format="dimension" />
         <attr name="circleColor" format="color" />
         <attr name="isDrawCircle" format="boolean" />
-        <attr name="isDrawLine" format="boolean" />
+        <attr name="isDrawLine"/>
+    </declare-styleable>
+
+    <declare-styleable name="CProgressBar">
+        <attr name="lineWidth" />
+        <attr name="lineColor" />
+        <attr name="stokesColor" />
+        <attr name="isDrawLine"/>
+        <attr name="corners" format="dimension" />
     </declare-styleable>
 </resources>

@@ -17,7 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.CEdittextActivity"></activity>
+        <activity android:name=".ui.CEdittextActivity" />
+        <activity android:name=".ui.CProgressBarActivity"></activity>
     </application>
 
 </manifest>

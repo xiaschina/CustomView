@@ -11,4 +11,8 @@ public class ActivityJump {
     public static void jumpToCEdittext() {
         ARouter.getInstance().build(ARouterUtil.C_VIEW_CEDITTEXT).navigation();
     }
+
+    public static void jumpToCProgressBar() {
+        ARouter.getInstance().build(ARouterUtil.C_VIEW_CPROGRESSBAR).navigation();
+    }
 }

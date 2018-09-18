@@ -9,6 +9,7 @@
     <dimen name="c_view_20dp">20dp</dimen>
     <dimen name="c_view_40dp">40dp</dimen>
     <dimen name="c_view_48dp">48dp</dimen>
+    <dimen name="c_view_200dp">200dp</dimen>
 
 
     <dimen name="c_view_16sp">16sp</dimen>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">CustomView</string>
     <string name="c_password">自定义密码输入框</string>
+    <string name="c_progressbar">自定义带过渡动画的进度条</string>
 </resources>

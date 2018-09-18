@@ -20,6 +20,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         titleBar.setText(getResources().getString(R.string.app_name));
         $.id(R.id.c_edittext_password).view(Button.class)
                 .setOnClickListener(this);
+        $.id(R.id.c_progressbar).view(Button.class)
+                .setOnClickListener(this);
     }
 
     @Override
@@ -32,6 +34,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         switch (v.getId()) {
             case R.id.c_edittext_password:
                 ActivityJump.jumpToCEdittext();
+                break;
+            case R.id.c_progressbar:
+                ActivityJump.jumpToCProgressBar();
                 break;
         }
     }

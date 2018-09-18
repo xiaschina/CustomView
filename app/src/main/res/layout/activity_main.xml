@@ -21,5 +21,18 @@
             android:textSize="@dimen/c_view_16sp"
             android:textColor="@color/c_view_FFFFFF"/>
 
+        <Button
+            android:id="@+id/c_progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/c_view_48dp"
+            android:layout_marginLeft="@dimen/c_view_20dp"
+            android:layout_marginRight="@dimen/c_view_20dp"
+            android:layout_marginTop="@dimen/c_view_20dp"
+            android:background="@drawable/tv_click_color"
+            android:gravity="center"
+            android:text="@string/c_progressbar"
+            android:textSize="@dimen/c_view_16sp"
+            android:textColor="@color/c_view_FFFFFF"/>
+
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
