@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+
+    <dimen name="c_view_1px">1px</dimen>
+    <dimen name="c_view_2px">2px</dimen>
+    <dimen name="c_view_1dp">1dp</dimen>
+    <dimen name="c_view_10dp">10dp</dimen>
+    <dimen name="c_view_15dp">15dp</dimen>
+    <dimen name="c_view_20dp">20dp</dimen>
+    <dimen name="c_view_40dp">40dp</dimen>
+    <dimen name="c_view_48dp">48dp</dimen>
+
+
+    <dimen name="c_view_16sp">16sp</dimen>
+</resources>

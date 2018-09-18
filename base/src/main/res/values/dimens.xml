@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+
+    <dimen name="c_base_10dp">10dp</dimen>
+    <dimen name="c_base_15dp">15dp</dimen>
+    <dimen name="c_base_18dp">18dp</dimen>
+    <dimen name="c_base_20dp">20dp</dimen>
+    <dimen name="c_base_25dp">25dp</dimen>
+    <dimen name="c_base_30dp">30dp</dimen>
+    <dimen name="c_base_35dp">35dp</dimen>
+    <dimen name="c_base_40dp">40dp</dimen>
+    <dimen name="c_base_44dp">44dp</dimen>
+    <dimen name="c_base_48dp">48dp</dimen>
+
+
+    <dimen name="c_base_16sp">16sp</dimen>
+    <dimen name="c_base_18sp">18sp</dimen>
+</resources>

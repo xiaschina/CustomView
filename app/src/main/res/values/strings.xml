@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomView</string>
+    <string name="c_password">自定义密码输入框</string>
+</resources>

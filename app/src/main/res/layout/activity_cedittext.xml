@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.xias.plugins.customview.view.CEditText
+        android:id="@+id/c_edit_text_view_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/c_base_20dp"
+        app:focusStokeColor="@color/colorAccent"
+        app:height="@dimen/c_view_40dp"
+        app:spaceWidth="@dimen/c_view_10dp"
+        app:stokesColor="@color/colorPrimary" />
+
+    <com.xias.plugins.customview.view.CEditText
+        android:id="@+id/c_edit_text_view_circle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/c_base_20dp"
+        app:circleRadius="@dimen/c_view_10dp"
+        app:circleColor="@color/c_view_000000"
+        app:focusStokeColor="@color/c_view_FFFFFF"
+        app:height="@dimen/c_view_40dp"
+        app:lineWidth="@dimen/c_view_2px"
+        app:isDrawCircle="true"
+        app:lineColor="@color/c_view_000000"
+        app:focusLineColor="@color/c_view_000000"
+        app:spaceWidth="@dimen/c_view_10dp"
+        app:isDrawLine="true"
+        app:stokesColor="@color/c_view_FFFFFF" />
+
+    <com.xias.plugins.customview.view.CEditText
+        android:id="@+id/c_edit_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/c_base_20dp"
+        app:focusStokeColor="@color/colorAccent"
+        app:height="@dimen/c_view_40dp"
+        app:lineWidth="@dimen/c_view_2px"
+        app:lineColor="@color/c_view_000000"
+        app:focusLineColor="@color/c_view_FF9100"
+        app:spaceWidth="@dimen/c_view_10dp"
+        app:stokesColor="@color/colorPrimary"
+        app:isDrawLine="true"/>
+</LinearLayout>
